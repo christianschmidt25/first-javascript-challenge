@@ -25,17 +25,33 @@ console.log(products, productDetails);
 // Task 3: Assignment Operators
 
 let accountBalance = 1765.00;
+console.log("Initial Account Balance", accountBalance);
+
 accountBalance += 235;
-console.log(accountBalance);
+console.log("Updated Account Balance", accountBalance);
 
 accountBalance -= 500;
-console.log(accountBalance);
+console.log("Updated Account Balance", accountBalance);
 
 accountBalance *= 3;
-console.log(accountBalance);
+console.log("Updated Account Balance", accountBalance);
 
 accountBalance /= 45;
-console.log(accountBalance);
+console.log("Updated Account Balance", accountBalance);
 
 accountBalance %= 24;
-console.log(accountBalance);
+console.log("Updated Account Balance", accountBalance);
+
+
+
+// Task 4: Comparison Operators
+
+let employeeScore1 = 91;
+let employeeScore2 = 61;
+
+console.log(employeeScore1 > employeeScore2);
+console.log(employeeScore1 < employeeScore2);
+console.log(employeeScore1 >= employeeScore2);
+console.log(employeeScore1 <= employeeScore2);
+console.log(employeeScore1 === employeeScore2);
+console.log(employeeScore1 !== employeeScore2);
